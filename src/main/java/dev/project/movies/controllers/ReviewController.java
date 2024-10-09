@@ -1,5 +1,8 @@
-package dev.project.movies;
+package dev.project.movies.controllers;
 
+import dev.project.movies.models.Review;
+import dev.project.movies.services.ReviewService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,11 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/v1/movies")
+@RequestMapping("/api/v1/reviews")
 public class ReviewController {
-    private ReviewService reviewService;
+    @Autowired
+    private ReviewService service;
     @PostMapping
     public ResponseEntity<Review> createReview(@RequestBody Map<String, String> payload){
-       return  new ResponseEntity<Review>(reviewService.createReview(payload.get("reviewBody"), payload.get("imdbId")), HttpStatus.CREATED);
+       return  new ResponseEntity<Review>(service.createReview(payload.get("reviewBody"), payload.get("imdbId")), HttpStatus.CREATED);
     }
 }
