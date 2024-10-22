@@ -6,9 +6,13 @@ This is a movie catalog application built using Spring Boot and React. The app a
 
 ### Technologies Used
 Spring Boot: Java-based backend framework for building the REST API.
+
 React: Front-end JavaScript library for building user interfaces.
+
 HTML and CSS: Used for structuring and styling the user interface.
+
 MongoDB: NoSQL database for storing movie and user data.
+
 Visual Studio Code (VS Code): Integrated Development Environment (IDE) used for coding and debugging.
 
 ### How to Run
