@@ -16,7 +16,7 @@ Visual Studio Code (VS Code): Integrated Development Environment (IDE) used for 
 * How to run the program
 * Step-by-step bullets
 ```
-[git clone https://github.com/YourGitHubUsername/My-Movies-App.git](https://github.com/janina280/Movies)
+[git clone https://github.com/janina280/Movies]
 cd movies
 ```
 
