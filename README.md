@@ -1,30 +1,35 @@
 # Movies
 
 Movies Documentation
-# Overview
+## Overview
 This is a movie catalog application built using Spring Boot and React. The app allows users to browse through a collection of movies using a carousel, watch trailers, and write reviews. Future versions of the app will include user authentication (login and register features).
 
-# Technologies Used
+### Technologies Used
 Spring Boot: Java-based backend framework for building the REST API.
 React: Front-end JavaScript library for building user interfaces.
 HTML and CSS: Used for structuring and styling the user interface.
 MongoDB: NoSQL database for storing movie and user data.
 Visual Studio Code (VS Code): Integrated Development Environment (IDE) used for coding and debugging.
 
-# How to Run
+### How to Run
 1. Clone the Repository:
 bash
 [git clone https://github.com/YourGitHubUsername/My-Movies-App.git](https://github.com/janina280/Movies)
 cd movies
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
 
-2. Backend (Spring Boot):
+3. Backend (Spring Boot):
 Ensure that you have Java and Maven installed.
 Configure your MongoDB database connection in application.properties.
 Run the Spring Boot application:
 bash
 mvn spring-boot:run
 
-3. Frontend (React):
+4. Frontend (React):
 Navigate to the frontend folder:
 bash
 cd frontend
@@ -42,16 +47,16 @@ bash
 http://localhost:3000
 
 
-#Features
+### Features
 Movie Carousel: Users can browse through movies in a carousel format on the homepage.
 Watch Trailers: Each movie has a trailer available for viewing.
 Write Reviews: Users can write reviews for movies, which are saved in the MongoDB database.
 Search Movies: Users can search for specific movies using the search bar.
 
-# Upcoming Features:
+### Upcoming Features:
 User Authentication: Login and registration functionalities to manage personalized user data.
 
-# Development Environment
+### Development Environment
 
 Visual Studio Code (VS Code): The primary IDE for developing and debugging the application.
 
