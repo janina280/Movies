@@ -56,8 +56,17 @@ http://localhost:3000
 
 ### Features
 * Movie Carousel: Users can browse through movies in a carousel format on the homepage.
+* 
+  ![movie1](https://github.com/user-attachments/assets/bb550ef5-20e9-4781-9819-27b66bc1e043)
+  
 * Watch Trailers: Each movie has a trailer available for viewing.
+* 
+  ![movie2](https://github.com/user-attachments/assets/2e16b77f-7160-47f0-9c24-26abef99fb9f)
+  
 * Write Reviews: Users can write reviews for movies, which are saved in the MongoDB database.
+  
+![movie3](https://github.com/user-attachments/assets/3f7b8dd2-445d-4501-b5a1-f4734dfca09d)
+
 
 ### Upcoming Features:
 User Authentication: Login and registration functionalities to manage personalized user data.
